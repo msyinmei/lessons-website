@@ -3,63 +3,9 @@ This text (between the symbols above and below) is a comment.
 This is where I can leave a message for you, without affecting my style definitions. 
 */
 
-
-/*
-This is where I define the colors of my background.
-*/
-body{
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: black;
-  color: purple;
-  text-align: center;
-}
-
-h1 {
-  font-size: 50px;
-  color: red;
-}
-
-p {
-  align-items: center;
-}
-
-a {
-  color: orange;
-}
-
-
-/*
-The following section has been commented out. 
-Uncomment the section, save and see what happens!
-The new rules should override the above rules.
-*/
-
-
-
-/*body {
-  background-image: url("images/backgroundimage.jpg");
-  background-image: url("http://pratikakkawar.com/wp-content/uploads/2014/07/find-empty-plates.jpg");
-  color: white;
-  border: solid 3px black;
-}
-
-h1 {
-  font-family: Helvetica;
-  color: black;
-  text-transform: uppercase;
-}
-
-a {
-  color: red;
-}*/
-
-
-
 /*
  This is where I define the width of all of my images and videos.
 */
-
 img{
   width: 50%;
 }
@@ -67,5 +13,66 @@ img{
 video {
   width: 50%;
 }
+
+/*
+This is where I define the colors of my background, text alignment. 
+*/
+body{
+  background-color: black;
+  color: green;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: red;
+}
+
+a {
+  color: orange;
+}
+
+ol {
+  text-align: left;
+}
+
+p {
+  align-items: center;
+}
+
+span{
+  color: aliceblue
+}
+
+
+/*
+The following section has been commented out. 
+Uncomment the section by erasing the star-slashes, save and see what happens when you refresh your browser!
+The new rules should override the above rules.
+*/
+
+
+/*
+body {
+  background-image: url("images/backgroundimage.jpg");
+  color: white;
+  border: solid 3px black;
+  text-align: center;
+}
+
+h1 {
+  font-family: Helvetica;
+  color: orange;
+  text-transform: uppercase;
+}
+
+a {
+  color: red;
+}
+*/
+
+
+
 
 
